@@ -1,9 +1,10 @@
 /* gauthamp10 */
 create table gauthamp (
-    app_name varchar primary key,
+    app_id serial primary key,
+    app_name varchar,
     category varchar,
     rating float,
-    rating_count int,
+    rating_count float,
     installs varchar,
     free boolean,
     price float,
@@ -18,16 +19,16 @@ create table neomatrix (
     genre varchar,
     rating float,
     reviews int,
-    installs int,
-    type boolean,
+    installs float,
+    type float,
     price float,
     content_rating varchar
 );
 
 /* UserReviews */
 create table user_reviews (
+    review_id serial primary key,
     app varchar,
-    foreign key (app) references neomatrix(app),
     translated_review varchar,
     original_sentiment varchar 
 );
