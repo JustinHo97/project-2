@@ -1,5 +1,6 @@
-## ANALYZING GOOGLE PLAY APPS TO IDENTIFY MOST POPULAR APP SECTOR; ETL PROJECT
-### Team members
+# Analyzing Google Play Apps to Identify Most Popular App Sectors
+## ETL Project:
+### Team Members
 Fenny Patel, Justin Ho, Nikki Ryan, Parisa Charkhgary, Sidney Bowe
 
 ### Extract
